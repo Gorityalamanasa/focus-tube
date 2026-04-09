@@ -1,0 +1,15 @@
+.DS_Store
+
+dist.zip
+node_modules
+output_popup
+output_content_script
+output_background_script
+output_welcome
+dist_chrome
+dist_firefox
+dist_edge
+dist
+focused-youtube-chrome.zip
+focused-youtube-firefox.zip
+focused-youtube-edge.zip

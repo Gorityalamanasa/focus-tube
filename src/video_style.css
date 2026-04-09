@@ -1,0 +1,44 @@
+/* ========================= */
+/* COMMENTS */
+/* ========================= */
+body:not(.fy-watch-page--comments-visible) ytd-comments {
+  display: none !important;
+}
+
+/* ========================= */
+/* DESCRIPTION */
+/* ========================= */
+body:not(.fy-watch-page--description-visible) #description {
+  display: none !important;
+}
+
+/* ========================= */
+/* KEEP PLAYLIST */
+/* ========================= */
+#secondary ytd-playlist-panel-renderer {
+  display: block !important;
+}
+
+/* ========================= */
+/* FIX VIDEO WIDTH */
+/* ========================= */
+#primary {
+  max-width: 1280px !important;
+  margin: 0 auto !important;
+}
+
+/* ========================= */
+/* SIDEBAR WIDTH */
+/* ========================= */
+#secondary {
+  width: 380px !important;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+@media (max-width: 1000px) {
+  #secondary {
+    display: none !important;
+  }
+}
